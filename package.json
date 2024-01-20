@@ -4,6 +4,7 @@
   "description": "v1",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/thoaipho51/blog_node/issues"
   },
-  "homepage": "https://github.com/thoaipho51/blog_node#readme"
+  "homepage": "https://github.com/thoaipho51/blog_node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
